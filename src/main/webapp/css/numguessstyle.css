@@ -1,22 +1,39 @@
-/* 
+/*
 didactic purposes
 Some items are intentionally not optimized or not coded in the right way
 FastTrackIT 2015,
 version 1.0
 */
+input {
+    background: whitesmoke;
+    color: darkred;
+}
+
+#submitTryIt {
+    color: red;
+    padding-top: 70px;
+
+}
+
+#submitReset {
+    color: red;
+    padding: 20px;
+}
 
 body {
-    background-color:navajowhite;
+    background: white;
     font-family: Verdana, Helvetica, Arial, sans-serif;
     line-height: 125%;
     padding: 0;
     margin: 0;
+    text-align: center;
 }
+
 
 
 h1 {
     font-size: large;
-    background-color: dodgerblue;
+    background-color: darkred;
     color: white;
     padding-top: 2em;
     padding-bottom: .2em;
@@ -27,19 +44,22 @@ h1 {
 #tagline p {
     font-style: italic;
     font-family: Georgia, Times, serif;
-    background-color: #bed8f3;
-    border-top: 3px solid #7da5d8;
-    border-bottom: 3px solid #7da5d8;
+    background-color: whitesmoke;
+    border-top: 3px solid whitesmoke;
+    border-bottom: 3px solid darkred;
     padding-top: .2em;
     padding-bottom: .2em;
     padding-left: .8em;
     margin: 0;
+    text-align: center;
 }
 
 #header {
     position: absolute;
-    border-top: 3px solid #7da5d8;
+    border-top: 3px solid darkred;
     width: 100%;
+    text-align: center;
+    color: darkblue;
 }
 
 #navigation {
@@ -47,18 +67,19 @@ h1 {
     top: 110px;
     width: 110px;
     height: 180px;
-    background-color: navajowhite;
+    background-color: white;
     color:black;
     padding-left: .8em;
-;
+
 }
 
 #bodycontent {
     position: absolute;
     left: 140px;
-    top: 120px;
-    padding-top:.4em;
+    top: 100px;
+    padding-top: 2em;
     padding-left:2em;
+
 }
 
 #postcontent {
@@ -67,28 +88,56 @@ h1 {
     top: 110px;
     width: 120px;
     height:180px;
-    background-color: navajowhite;
+    background-color: white;
     color:black;
     padding-left: .8em;
-;
+
 }
 
 #serverResponse {
-    color:red;
+    color: darkblue;
     position: absolute;
-    top: 210px;
+    top: 250px;
     left: 140px;
     width: 200px;
-    background-color: navajowhite;
-    color: blue;
+    background-color: white;
     padding-left: .8em;
+    padding-top: .5em;
+    padding-bottom: .5em;
 
 }
 
+#rules {
+    color: darkblue;
+    position: absolute;
+    top: 100px;
+    left: 600px;
+    width: 257px;
+    height: 500px;
+    background: url("../images/rules.png") no-repeat;
+    padding-left: .8em;
+    border-right: 2px solid darkred;
+}
 
+#dreapta {
+    color: darkblue;
+    position: absolute;
+    top: 100px;
+    left: 900px;
+    width: 600px;
+    height: 550px;
+    font-style: italic;
+    font-family: Georgia, Times, serif;
+}
 
-
-
+#casino {
+    position: absolute;
+    background-image: url(../images/justdoit.jpg);
+    top: 400px;
+    left: 10px;
+    width: 560px;
+    height: 280px;
+}
 
 
 

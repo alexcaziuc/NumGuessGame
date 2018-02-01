@@ -1,64 +1,99 @@
-
 <!-- didactic purposes
-
 Some items are intentionally not optimized or not coded in the right way
-
 FastTrackIT 2015
-
 -->
 
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <title>app name</title>
-      <meta charset="utf-8"/>
-      <link href="css/numguessstyle.css" rel="stylesheet" type="text/css"/>
+    <meta charset="utf-8"/>
+    <link href="css/numguessstyle.css" rel="stylesheet" type="text/css"/>
 
     <script src="js/numguessjs.js"></script>
 
-  </head>
+</head>
 
 
-  <body>
+<body>
 
 
-  <div id="header">
-      <div id="sitebranding">
-          <h1>FastTrackIT.org</h1>
-      </div>
-      <div id="tagline">
-          <p>Welcome to NumGuess 2016!</p>
-      </div>
-  </div>
-  <div id="navigation">
-      <a href="javascript:guessLink(1)">It could be 1</a></br>
-      <a href="javascript:guessLink(2)">It could be 2</a></br>
-      <a href="javascript:guessLink(3)">It could be 3</a></br>
-      <a href="javascript:guessLink(4)">It could be 4</a></br>
-      <a href="javascript:guessLink(5)">It could be 5</a></br>
-  </div>
-  <div id="bodycontent">
-      <div id="form">
-          <label for="number">Number:&nbsp;</label><input type="number" id="number" style="width:30px"/>
+<div id="header">
+    <div id="sitebranding">
+        <h1>What's the Magic Number?</h1>
+    </div>
+    <div id="tagline">
+        <p>Welcome !</p>
+    </div>
+</div>
+<div id="navigation">
+    <a href="javascript:guessLink(1)"><img src="images/number1.png" width="30px" height="30xp"></a></br>
+    <a href="javascript:guessLink(2)"><img src="images/number2.jpg" width="30px" height="30xp"></a></br>
+    <a href="javascript:guessLink(3)"><img src="images/number3.jpg" width="30px" height="30xp"></a></br>
+    <a href="javascript:guessLink(4)"><img src="images/number4.jpg" width="30px" height="30xp"></a></br>
+    <a href="javascript:guessLink(5)"><img src="images/number5.jpg" width="30px" height="30xp"></a></br>
+</div>
+<div id="bodycontent">
+    <div id="form">
+        <label for="number"><img src="images/Magic_Number.jpg" width="100" height="100">&nbsp;</label><input
+            type="number" id="number" style="width:30px"/>
 
-          </br></br>
+        </br></br>
 
-          <input type="button" id="guessButton" value="Guess now" onClick="guess()"/>
-          <input type="button" id="resetButton" value="Reset Game" onClick="reset()"/>
-      </div>
+        <div id="submitTryIt">
+            <input type="button" id="guessButton" value="Try it !" onClick="guess()"/>
+        </div>
+        <div id="submitReset">
+            <input type="button" id="resetButton" value="Reset Game ?" onClick="reset()"/>
+        </div>
+    </div>
 
-  </div>
+</div>
 
-  <div id="serverResponse"></div>
+<div id="serverResponse"></div>
 
-  <div id="postcontent">
-      <a href="javascript:guessLink(6)">It could be 6</a></br>
-      <a href="javascript:guessLink(7)">It could be 7</a></br>
-      <a href="javascript:guessLink(8)">It could be 8</a></br>
-      <a href="javascript:guessLink(9)">It could be 9</a></br>
-      <a href="javascript:guessLink(10)">It could be 10</a></br>
-  </div>
+<div id="postcontent">
+    <a href="javascript:guessLink(6)"><img src="images/number6.jpg" width="30px" height="30xp"></a></br>
+    <a href="javascript:guessLink(7)"><img src="images/number7.jpg" width="30px" height="30xp"></a></br>
+    <a href="javascript:guessLink(8)"><img src="images/number8.jpg" width="30px" height="30xp"></a></br>
+    <a href="javascript:guessLink(9)"><img src="images/number9.jpg" width="30px" height="30xp"></a></br>
+    <a href="javascript:guessLink(10)"><img src="images/number10.jpg" width="30px" height="30xp"></a></br>
+</div>
 
-  </body>
+<div id="rules">
+
+</div>
+
+<div id="dreapta">
+    <h1>The Rules of The Game:</h1>
+    <ol>
+        <h2>
+            <li>Don't talk about "What's the Magic Number".</li>
+        </h2>
+        <br>
+        <h2>
+            <li>Just kidding there's no such a rule :)</li>
+        </h2>
+        <br>
+        <h2>
+            <li>Just guess that number.</li>
+        </h2>
+        <br>
+        <h2>
+            <li>Read rule Number 3!</li>
+        </h2>
+        <br>
+    </ol>
+    <h5><b>Disclaimer-</b>This is not a game for the faint-hearted.
+        We are not responsible for your headaches.
+        If you can't handle it, better leave now! :)) </h5>
+</div>
+
+<div id="casino">
+
+
+</div>
+
+</body>
 </html>
